@@ -1,0 +1,32 @@
+.ConWappper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: flex-end;
+}
+
+.resource-item {
+    width: 15rem;
+    margin: 0 1rem 1rem;
+    cursor: pointer;
+    border: 1px solid #f0f0f0;
+    position: relative;
+}
+.resource-item:hover {
+    transform: scale(1.05);
+}
+
+.resource-item:hover .resource-text {   
+    opacity: 100%;
+}
+
+.resource-text {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    opacity: 0;
+}
+

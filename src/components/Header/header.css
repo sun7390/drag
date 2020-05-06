@@ -2,12 +2,9 @@
     border: 1px solid rgb(235, 237, 240);
     height: 4rem;
     padding: 0 2rem;
-    display: flex;
-    justify-content: space-between;
 }
 .ant-page-header-heading-title {
-    font-size: 1.5rem;
-    margin-right: 1rem;
+    font-size: 1.5rem; 
     color: rgba(0, 0, 0, 0.85);
     font-weight: 500;
 }
@@ -15,15 +12,4 @@
     font-size: 0.75rem;
     color: rgba(0, 0, 0, 0.7)
 }
-.ant-page-header-heading {
-    display: flex;
-    align-items: center;
-    width: 100%;
-}
-.ant-page-header-heading-extra {
-    position: absolute;
-    right: 3rem;
-}
-.head-link {
-    margin-right: 1rem;
-}
+

@@ -12,12 +12,12 @@ const IconList = [{
     link: "/3"
 }]
 const IconReduce = ({src, text="", link}) => (
-    <a className="head-link" href={link}>
+    <a className="head-link" href={link} key={link}>
         <img className="head-img" src={src} alt={text}/>
             {text}
     </a>
 )
-const Icons = IconList.map(item => IconReduce(item))
+const Icons = IconList.map(IconReduce)
 
 class Header extends Component {
     render() {
