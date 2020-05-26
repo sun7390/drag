@@ -35,8 +35,6 @@ const tabPanels = [
 class Tab extends Component {
     constructor(props, context) {
         super(props, context)
-        console.log(this.props)
-        
     }
 
     tabRender = ({src, text, props}) => (
@@ -73,7 +71,6 @@ class Tab extends Component {
 
     dragEnd = (props) => {
         this.props.onAddCom(props)
-        console.log(this.props)
     }
     
     render() {
